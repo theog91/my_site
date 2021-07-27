@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: #e4f9ff;
+    
+}
+    
+h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 5.5rem;
+    font-family: 'Staatliches', cursive;
+    color: #11999E;
+    line-height: 2;
+    text-align: center;
+    
+}
+h2 {
+    
+    font-size: 1.5rem;
+    font-family: 'Staatliches', cursive;
+    color: #11999E;
+    font-weight: normal;
+    text-align: center;
+    
+}
+h3 {
+    color: #11999E;
+    text-align: center;
+    text-transform: uppercase;
+}
+a {
+    color: #11999E;
+    text-align: center;
+}
+
+.top-container {
+    background-color: #e4f9ff;
+    position: relative;
+    padding-top: 100px;
+}
+
+.bottom-cloud {
+position: absolute;
+right: 300px;
+top: 50px;
+}
+.top-cloud {
+    position: absolute;
+    left: 200px;
+    bottom: 200px;
+    
+
+}
+.profile-img {
+    
+    ;
+    width: 200px;
+    margin-top: 0px;
+    margin-left: 0px;
+    }
+.middle-container {
+    
+    margin: 0px auto 0px auto;
+    text-align: center;
+    line-height: 2;
+}
+.skill-row1 {
+    width: 50%;
+    margin: 0px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.skill-row2 {
+    width: 50%;
+    margin: 0px auto 0px auto;
+    text-align: center;
+    line-height: 2;
+}
+.tee {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.nine {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.profoile {
+    
+   
+    text-align: center;
+    
+}
+
+}
+.contact-me {
+    text-align: center;
+}
+
+.my-skills {
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
+
+hr {
+    border: 9px dotted #fae103;
+    border-style: none none dotted; 
+    color: #e4f9ff; 
+    background-color: #e4f9ff;
+    width: 10%;
+}
+.bottom-container {
+    padding: 50px 0 20px;
+    background-color: black;
+    text-align: center;
+    margin-top: 60px;
+}
+.bottom-info {
+    color: rgb(255, 255, 255);
+    padding: 20px 0 1px 0;
+    font-size: 0.75rem;
+}
+
+
+.footer-link {
+    color: rgb(152, 66, 233);
+    margin: 20px 30px;
+    font-family: monospace;
+    text-decoration: none;
+    font-size: 2rem;
+    
+}
+.footer-link:hover {
+    color: cyan;
+}
+iframe {
+    
+    
+    margin-bottom: 10px;
+    
+}
+.BUTTON_DIB {
+    background:#11999E;
+    
+    -webkit-border-radius: 57px;
+    -moz-border-radius: 57px;
+    border-radius: 57px;
+    height: 0;
+    line-height: 0;
+    color: #FFFFFF;
+    font-family: monospace;
+    width: 70px;
+    font-size: 12px;
+    font-weight: 100;
+    padding: 40px;
+    margin: 40px;
+    
+    border: solid #11999E; 0;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON_DIB:hover {
+    border: solid #11999E;;
+    background: #11999E;;
+    box-shadow: 3px 9px 6px 2px rgba(0, 0, 0, 0.322);
+    text-decoration: none;
+ }
+}
+.bottom-info {
+    margin: 85px auto 1px auto; 
+}
+.if {
+    margin: 20px;
+}
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    /* If you want dots under the  hoverable text */
+    padding: 1px 50px 1px 50px;
+    margin-top: 0px auto 0px auto;
+    font-size: 2.5rem;
+    font-family: 'Staatliches', cursive;
+    color: #11999E;
+    text-align: center;
+  }
+  
+  
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 100px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    text-align: ce;
+    padding: 5px 115px 5px 0px;
+    border-radius: 6px;
+     
+  
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 0%;
+    margin-left: 0px;
+  
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  /* Tooltip arrow */
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0) transparent transparent transparent;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  
